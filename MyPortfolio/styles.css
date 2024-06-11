@@ -2,21 +2,23 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    background: url('https://www.transparenttextures.com/patterns/brick-wall-dark.png');
 }
 
+/* Remove the background image from .bg-pattern */
 .bg-pattern {
-    background: linear-gradient(to right, rgb(239, 238, 244) 0%, rgb(233, 233, 233) 35%, rgba(210, 237, 243, 0.469) 100%);
-    background-attachment: fixed;
-    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.5); /* Adjust opacity here */
+    background-blend-mode: overlay;
 }
+
 
 header {
-    background: rgba(25, 61, 88, 0.998);
+    background: rgba(25, 61, 88, 0.7); /* Adjust opacity here */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 nav {
-    background: rgba(25, 61, 88, 0.998);
+    background: rgba(25, 61, 88, 0.7); /* Adjust opacity here */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
@@ -25,7 +27,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.3); /* Adjust opacity here */
 }
 
 main {
@@ -33,7 +35,7 @@ main {
 }
 
 section {
-    background: rgba(255, 255, 255, 0.95);
+    background: rgba(255, 255, 255, 0.7); /* Adjust opacity here */
     border-radius: 0.5rem;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     margin-bottom: 1rem;
@@ -44,10 +46,7 @@ h2 {
 }
 
 footer {
-    background: rgba(25, 61, 88, 0.998);
+    background: rgba(25, 61, 88, 0.7); /* Adjust opacity here */
     box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
     padding: 1rem;
-    width: 2196px;
-    position: relative;
-    margin: 0;
 }
