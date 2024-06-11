@@ -7,58 +7,134 @@
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body class="bg-pattern min-h-screen flex flex-col">
 
-    <header class="text-white py-4">
-        <div class="container mx-auto">
-            <h1 class="text-3xl font-bold">Curriculum Vitae Portfolio</h1>
-        </div>
-    </header>
-    
-    <nav class="shadow">
-        <div class="container mx-auto flex justify-center space-x-4">
-            <a href="#" class="py-2 px-4 text-white hover:bg-gray-700 rounded-md">Home</a>
-            <a href="#" class="py-2 px-4 text-white hover:bg-gray-700 rounded-md">About</a>
-            <a href="#" class="py-2 px-4 text-white hover:bg-gray-700 rounded-md">Education</a>
-            <a href="#" class="py-2 px-4 text-white hover:bg-gray-700 rounded-md">Experience</a>
-            <a href="#" class="py-2 px-4 text-white hover:bg-gray-700 rounded-md">Skills</a>
-            <a href="#" class="py-2 px-4 text-white hover:bg-gray-700 rounded-md">Projects</a>
-        </div>
-    </nav>
-    
-    <main class="container mx-auto mt-6 flex-grow">
-        <section class="rounded-md shadow-lg p-6 mb-6">
+<header class="text-white py-4">
+    <div class="container mx-auto">
+        <h1 class="text-3xl font-bold">Curriculum Vitae Portfolio</h1>
+    </div>
+</header>
+
+<nav class="shadow">
+    <div class="container mx-auto flex justify-center space-x-4">
+        <a href="#" class="py-2 px-4 text-white hover:bg-gray-700 rounded-md flex items-center">
+            <i class="fas fa-home mr-2"></i> Home
+        </a>
+        <a href="#" class="py-2 px-4 text-white hover:bg-gray-700 rounded-md flex items-center">
+            <i class="fas fa-user mr-2"></i> About
+        </a>
+        <a href="#" class="py-2 px-4 text-white hover:bg-gray-700 rounded-md flex items-center">
+            <i class="fas fa-graduation-cap mr-2"></i> Education
+        </a>
+        <a href="#" class="py-2 px-4 text-white hover:bg-gray-700 rounded-md flex items-center">
+            <i class="fas fa-briefcase mr-2"></i> Experience
+        </a>
+        <a href="#" class="py-2 px-4 text-white hover:bg-gray-700 rounded-md flex items-center">
+            <i class="fas fa-cogs mr-2"></i> Skills
+        </a>
+        <a href="#" class="py-2 px-4 text-white hover:bg-gray-700 rounded-md flex items-center">
+            <i class="fas fa-project-diagram mr-2"></i> Projects
+        </a>
+    </div>
+</nav>
+
+<main class="container mx-auto mt-6 flex-grow">
+    <section class="rounded-md shadow-lg p-6 mb-6 flex flex-col lg:flex-row items-center lg:items-start lg:space-x-6">
+        <img src="image.png" alt="Profile Picture" class="w-32 h-32 lg:w-48 lg:h-48 rounded-full mb-4 lg:mb-0">
+        <div>
             <h2 class="text-2xl font-semibold mb-4">About Me</h2>
-            <p class="text-lg">Write a brief introduction about yourself here.</p>
-        </section>
-    
-        <section class="rounded-md shadow-lg p-6 mb-6">
-            <h2 class="text-2xl font-semibold mb-4">Education</h2>
-            <p class="text-lg">Write about your educational background here.</p>
-        </section>
-    
-        <section class="rounded-md shadow-lg p-6 mb-6">
-            <h2 class="text-2xl font-semibold mb-4">Experience</h2>
-            <p class="text-lg">Write about your work experience here.</p>
-        </section>
-    
-        <section class="rounded-md shadow-lg p-6 mb-6">
-            <h2 class="text-2xl font-semibold mb-4">Skills</h2>
-            <p class="text-lg">List your skills here.</p>
-        </section>
-    
-        <section class="rounded-md shadow-lg p-6 mb-6">
-            <h2 class="text-2xl font-semibold mb-4">Projects</h2>
-            <p class="text-lg">Describe your projects here.</p>
-        </section>
-    </main>
-    
-    <footer class="text-white py-4">
-        <div class="container mx-auto text-center">
-            <p class="text-lg">&copy; 2024 Your Name</p>
+            <p class="text-lg mb-4">Write a brief introduction about yourself here. Include your background, interests, and any other relevant information that gives a good overview of who you are.</p>
+            <p class="text-lg">You can also include more detailed information such as your goals, passions, or any notable achievements that you think are important for others to know.</p>
         </div>
-    </footer>
+    </section>
+
+    <section class="rounded-md shadow-lg p-6 mb-6">
+        <h2 class="text-2xl font-semibold mb-4">Education</h2>
+        <div class="mb-4">
+            <h3 class="text-xl font-medium">Elementary School</h3>
+            <p class="text-lg">Sunrise Elementary School</p>
+            <p class="text-lg">2000 - 2006</p>
+            <p class="text-lg">Graduated with honors</p>
+        </div>
+        <div class="mb-4">
+            <h3 class="text-xl font-medium">High School</h3>
+            <p class="text-lg">Green Valley High School</p>
+            <p class="text-lg">2006 - 2010</p>
+            <p class="text-lg">Graduated with distinction</p>
+        </div>
+        <div class="mb-4">
+            <h3 class="text-xl font-medium">College</h3>
+            <p class="text-lg">State University</p>
+            <p class="text-lg">2010 - 2014</p>
+            <p class="text-lg">Bachelor of Science in Computer Science, Cum Laude</p>
+        </div>
+        <div class="mb-4">
+            <h3 class="text-xl font-medium">Graduate School</h3>
+            <p class="text-lg">Tech Institute of Technology</p>
+            <p class="text-lg">2015 - 2017</p>
+            <p class="text-lg">Master of Science in Software Engineering</p>
+        </div>
+        <div>
+            <h3 class="text-xl font-medium">Further Education</h3>
+            <p class="text-lg">Various Professional Development Courses</p>
+            <p class="text-lg">2018 - Present</p>
+            <p class="text-lg">Certificates in Data Science, AI, and Machine Learning</p>
+        </div>
+    </section>
     
-    </body>
-    </html>
+    <section class="rounded-md shadow-lg p-6">
+        <h2 class="text-2xl font-semibold mb-4">Experience</h2>
+        <div class="mb-4">
+            <h3 class="text-xl font-medium">Software Developer</h3>
+            <p class="text-lg">XYZ Company</p>
+            <p class="text-lg">2018 - Present</p>
+            <ul class="list-disc pl-6">
+                <li>Developed web applications using HTML, CSS, JavaScript, and React.</li>
+                <li>Implemented RESTful APIs for communication between frontend and backend systems.</li>
+                <li>Collaborated with cross-functional teams to deliver high-quality software products.</li>
+            </ul>
+        </div>
+        <div>
+            <h3 class="text-xl font-medium">Intern</h3>
+            <p class="text-lg">ABC Corporation</p>
+            <p class="text-lg">Summer 2017</p>
+            <ul class="list-disc pl-6">
+                <li>Assisted senior developers in troubleshooting and debugging code issues.</li>
+                <li>Participated in code reviews and provided feedback on code quality.</li>
+                <li>Contributed to the development of a new feature for the company's mobile app.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="rounded-md shadow-lg p-6">
+        <h2 class="text-2xl font-semibold mb-4">Skills</h2>
+        <ul class="list-disc pl-6">
+            <li class="text-lg">HTML/CSS</li>
+            <li class="text-lg">JavaScript</li>
+            <li class="text-lg">React</li>
+            <li class="text-lg">Node.js</li>
+            <li class="text-lg">RESTful APIs</li>
+            <li class="text-lg">Git</li>
+        </ul>
+    </section>
+
+    <section class="rounded-md shadow-lg p-6">
+        <h2 class="text-2xl font-semibold mb-4">Projects</h2>
+        <div class="mb-4">
+            <h3 class="text-xl font-medium">E-commerce Website</h3>
+            <p class="text-lg">Developed a fully functional e-commerce website using React and Node.js.</p>
+        </div>
+        <div>
+            <h3 class="text-xl font-medium">Blog Application</h3>
+            <p class="text-lg">Created a blog application where users can create, read, update, and delete blog posts.</p>
+        </div>
+    </section>
+
+<footer class="text-white">
+        <p class="text-lg">&copy; 2024 Your Name</p>
+</footer>
+
+</body>
+</html>
